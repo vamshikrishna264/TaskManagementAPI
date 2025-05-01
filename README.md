@@ -24,7 +24,7 @@ A simple ASP.NET Core Web API for managing tasks, users, and task comments with 
 •	4. Run the application
 •	   run
 
-•	5. Access Swagger UI at https://localhost:7188/swagger
+•	5. Access Swagger UI at localhost
 Features
 •	Create a new task (Admin only)
 •	View task details by ID
