@@ -20,8 +20,10 @@ A simple ASP.NET Core Web API for managing tasks, users, and task comments with 
 •	3. Apply migrations and create the database from package manager console
 •	   Add-Migration  SeedInitial   //to add the seed data
 •	   update-database
+
 •	4. Run the application
 •	   run
+
 •	5. Access Swagger UI at https://localhost:7188/swagger
 Features
 •	Create a new task (Admin only)
@@ -30,11 +32,13 @@ Features
 •	Automatically adds a user if they don’t exist when assigning a task
 •	Adds a task comment associated with a user and task
 •	Handles circular references using ReferenceHandler.Preserve for JSON Serialization
+
 Authentication
 •	JWT-based authentication is used.
 •	Pass token in the Authorization header:
 •	Authorization: Bearer {your_token}
-•	Roles:
+
+Roles:
 •	- Admin: Can create tasks
 •	- User: Can view their assigned tasks
 Sample Payload
